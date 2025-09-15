@@ -1,5 +1,7 @@
 # Task Automation & Scheduling System (Java Spring Boot + Spring boot Schedulling + MySQL)
 
+ss
+
 Two microservices:
 - **scheduler-service** — Accepts tasks, schedules webhooks, manages retries & async polling, persists task metadata.
 - **executor-service** — Simulates business logic: accepts webhooks (sync or async), exposes `api/status/{id}` for polling, send mail.
